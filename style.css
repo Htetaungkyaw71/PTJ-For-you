@@ -1,0 +1,178 @@
+*{
+    font-family: sans-serif;
+}
+.nav-a{
+    margin-left: 20px;
+    /* transition: 0.5s; */
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    margin-left: auto;
+    font-size: 20px;
+    
+}
+.navbar{
+    box-shadow: 5px 0px 5px 0px whitesmoke;
+}
+
+.home{
+    height: 700px;
+
+    background:linear-gradient(to right,rgba(0, 0, 255, 0.808), #2f89f6e0);
+}
+#home-description{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+.h1-description{
+    margin-bottom: 0.5em;
+    color: white;
+}
+.h2-description{
+    margin-bottom: 0.7em;
+    color: white;
+}
+.nav-a:hover{
+    border-bottom: 2px solid #2F88F6;
+}
+.work {
+    font-size: 60px;
+    padding: 10px;
+}
+.p-second{
+    color: gray;
+}
+.fab{
+    font-size: 20px;
+    
+}
+.second{
+    background-color: whitesmoke;
+   
+   
+}
+.jobs{
+    background-color: whitesmoke;
+ 
+}
+.categories{
+    background-color: whitesmoke;
+ 
+}
+.counter1{
+    font-size: 50px;
+    /* color:  rgba(0, 153, 255, 0.685); */
+   color: gray;
+    padding-bottom: 20px;
+}
+
+#football{
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+#f{
+    font-size: 20px;
+   
+}
+.ff{
+    /* margin-top: 50px; */
+    margin-bottom: 15px;
+    margin-right: 10px;
+    color: rgb(16, 76, 243);
+    
+}
+.footer{
+    background-color: rgb(53, 52, 52);
+    color: black;
+}
+.circle{
+   
+    width:65px;
+    height:65px;
+    border-radius:50px;
+    background:linear-gradient(to right, #40b3ff62, rgba(0, 153, 255, 0.685));
+    text-align: center;
+    font-size: 25px;
+    margin-left: 22px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color:blue;
+   
+    
+}
+.card-design{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.card-design:hover {
+    background-color:  orange;
+    box-shadow: 0px 5px 0px 5px  orange;
+    color: white;
+}
+.card-design:hover .circle {
+    background:rgba(218, 218, 218, 0.575);
+    color: white;
+}
+.card-design:hover .design {
+    
+    color: white;
+}
+.about-description{
+    margin-top: 7%;
+}
+.contact{
+    background:linear-gradient(to right,rgba(0, 0, 255, 0.808), #2f89f6e0);
+     color: white;
+   
+}
+.image{
+    margin-top: 15%;
+}
+body{
+    animation-name:start ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes start{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #ffffff 14%,#3C63FB 64%);
+    border-radius: 10px;
+    box-shadow: inset 7px 7px 12px #3C63FB;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: radial-gradient(circle, #ffffff 14%,#3c63fb 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px #ffffff;
+   }
+   .ptj{
+       padding: 110px;
+       text-align: center;
+   }
